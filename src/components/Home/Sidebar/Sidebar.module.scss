@@ -1,0 +1,29 @@
+.sidebar {
+  max-width: 100%;
+  width: 100%;
+  flex-shrink: 0;
+  @media (min-width: 768px) {
+    flex: 0 0 auto;
+    width: 33.333333%;
+    order: 1;
+  }
+  @media (min-width: 992px) {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+
+.divider {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  border-bottom: 1px solid #6c757d;
+}
